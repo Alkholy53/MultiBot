@@ -4,7 +4,7 @@
 This project is a multimodal chatbot that processes text, image, and audio inputs. It uses Salesforce's BLIP model for generating dynamic image descriptions, and audio I/O for speech recognition and synthesis. LangChain powers document handling and question answering, while Chroma provides vector storage for enhanced retrieval. The chatbot leverages Ollama LLM to generate accurate, context-aware responses, integrating Retrieval-Augmented Generation (RAG) to retrieve relevant documents for improved performance.
 
 ## Features
-- **Image Captioning**: Generate captions for uploaded images using CLIP and BLIP.
+- **Image Captioning**: Generate captions for uploaded images using BLIP.
 - **Text-based Chatbot**: Respond to user queries using LLM-powered QA.
 - **Audio I/O**: Accepts audio input and provides speech output.
 - **Document Upload**: Supports PDF, CSV, and arXiv uploads for question answering and summarization.
