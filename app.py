@@ -6,7 +6,6 @@ from src.document_handler import handle_document_upload, handle_arxiv_upload, ch
 import os
 import tempfile
 import sqlite3
-import clip  # For OpenAI's CLIP model (https://github.com/openai/CLIP)
 import torch
 from PIL import Image
 import speech_recognition as sr
@@ -44,7 +43,6 @@ def clear_conversation_history():
 
 # Load the CLIP model for image captioning
 device = "cpu"  # Use CPU instead of GPU
-clip_model, preprocess = clip.load("ViT-B/32", device=device)
 
 # Load the BLIP model for dynamic image captioning
 blip_processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
