@@ -40,7 +40,7 @@ This project is a multimodal chatbot that processes text, image, and audio input
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/multimodal-chatbot.git
+   git clone https://github.com/Alkholy53/MultiBot.git
    cd multimodal-chatbot
    ```
 2. Create a virtual environment and activate it:
